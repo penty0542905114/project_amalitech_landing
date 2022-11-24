@@ -156,7 +156,7 @@
   main .premium-card .premium-card-body {
     font-size: 18px;
     line-height: 28px;
-    color: #fcfaf9;
+    color: #daa285;
     font-weight: normal;
     margin-bottom: 33px;
   }
@@ -201,7 +201,7 @@
   footer .copyright {
     font-size: 16px;
     line-height: 26px;
-    color: #191826;
+    color: #f9f9f9;
   }
   footer .right-bold {
     font-weight: bold;
@@ -469,5 +469,4 @@
     }
   }
   
-  /*# sourceMappingURL=style.css.map */
-  
+ 
