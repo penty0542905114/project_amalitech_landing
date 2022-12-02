@@ -3,15 +3,13 @@
     box-sizing: border-box;
   }
   
-  
- 
-  
   body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     overflow-x: hidden;
-    background: #1299e285;
+    background: #fcfaf9;
+    
   }
   @media only screen and (min-height: 2000px) {
     body {
@@ -48,7 +46,7 @@
     content: "";
     width: 381.4px;
     height: 520px;
-    background-image: url("../images/bg-main-mobile.png");
+    background-image: url("../assets/bg-main-mobile.png");
     background-size: cover;
     background-position: 20% 60%;
     position: absolute;
@@ -59,7 +57,7 @@
   }
   @media only screen and (min-width: 750px) {
     .container::after {
-      background-image: url("../images/bg-main-tablet.png");
+      background-image: url("../assets/bg-main-tablet.png");
       background-repeat: none;
       background-position: 80% 60%;
       right: -30px;
@@ -75,7 +73,7 @@
       top: -144px;
       background-position: 135% 60%;
       height: 1758px;
-      background-image: url("../images/bg-main-desktop.png");
+      background-image: url("../assets/bg-main-desktop.png");
     }
   }
   
@@ -95,9 +93,9 @@
     font-weight: bold;
     font-size: 40px;
     line-height: 48px;
-    letter-spacing: -0.454545px;
+    letter-spacing: -1px;
     margin-bottom: 20px;
-    color: #e734c3;
+    color: #191826;
   }
   @media only screen and (min-width: 750px) {
     header h1 {
@@ -150,7 +148,7 @@
   main .premium-card .premium-card-body {
     font-size: 18px;
     line-height: 28px;
-    color: #daa285;
+    color: #fcfaf9;
     font-weight: normal;
     margin-bottom: 33px;
   }
@@ -164,7 +162,7 @@
     font-weight: bold;
     font-size: 65px;
     line-height: 52px;
-    color: #21ebf668;
+    color: #fcfaf9;
     margin-bottom: 32px;
   }
   @media only screen and (min-width: 1050px) {
@@ -195,7 +193,7 @@
   footer .copyright {
     font-size: 16px;
     line-height: 26px;
-    color: #f9f9f9;
+    color: #191826;
   }
   footer .right-bold {
     font-weight: bold;
